@@ -1,0 +1,35 @@
+.page-book-container{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.page-book{
+  background:#ffffff;
+  border: .04rem solid #d7d7d7;
+  width: 4.64rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: .1rem 0;
+
+}
+
+.page-book-img{
+  max-width: 2.86rem;
+  margin: .2rem 0  .28rem;
+}
+
+.page-book-name{
+  font-size: .32rem;
+  color:#22262b;
+  margin-top: .2rem;
+}
+
+.page-book-author{
+  font-size: .28rem;
+  color:#7f7f7f;
+  margin-bottom: .2rem;
+}

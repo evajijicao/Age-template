@@ -1,0 +1,41 @@
+.page-prize {
+  width: 100%;
+  background: url("../assets/prize-bg@2x.png") no-repeat;
+  background-size: contain;
+  height: 5.4rem;
+  padding: 3.1rem 0 2rem;
+
+}
+
+.page-prize>div{
+  margin-left: .94rem;
+  margin-right: .94rem;
+}
+
+.page-prize-title{
+  font-size: .34rem;
+  color:#03687d;
+  text-align:center;
+  height: .4rem;
+  line-height: .4rem;
+  font-weight: bold;
+
+}
+
+.page-prize-content,
+.page-prize-summary{
+  font-size: .3rem;
+  color:#03687d;
+  line-height: .48rem;
+  text-align:left;
+  height: 1.9rem;
+  overflow: hidden;
+}
+
+.page-prize-content{
+  margin-top: .28rem;
+}
+
+.page-prize-summary{
+  margin-top: .6rem;
+}

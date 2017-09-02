@@ -1,0 +1,22 @@
+
+
+<div class="page-action">
+    <div class="page-action-title">
+    今日行动
+    </div>
+   
+
+        <div class="page-action-content">
+            {{ include.param[1].content }}
+            
+        </div>
+        {% if include.param[1].summary %}
+		    <div class="page-action-summary">
+			{{ include.param[1].summary }}
+		</div>
+		{% endif %}
+        {% if include.param[1].summary==null %}
+            <div class="page-action-summary-null"></div>
+        {% endif %}
+		
+</div>

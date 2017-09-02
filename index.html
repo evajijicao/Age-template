@@ -1,0 +1,33 @@
+---
+layout: main
+---
+
+<div class="home">
+
+    <ul class="home-post-list">
+        {% for post in site.posts %}
+            <li class="home-post-item">
+                <a class="home-post-link" href="{{ site.url }}{{ post.url}}">{{ post.title }}</a>
+                <span class="home-post-date">{{ post.date | date_to_long_string }}</span>
+            </li>
+        {% endfor %}
+    </ul>
+
+</div>
+
+<style>
+    .home-post-item{
+        font-size: .4rem;
+        margin: .3rem .2rem .3rem .3rem;
+    }
+
+    .home-post-link{
+        text-align:center;
+        color: #00ada2;
+    }
+
+    .home-post-date{
+        font-size: .32rem;
+        color: #707070;
+    }
+</style>

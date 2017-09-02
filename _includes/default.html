@@ -1,0 +1,13 @@
+
+
+{% assign path = page.path | split: "/" %}
+{% assign name = path.last | split: "." %}
+{% assign category = page.category | append: "-" %}
+{% assign dataId = category | append: name[0] %}
+
+{% for item in site.data[dataId] %}
+    {% if item[0] == include.name %}
+        {% assign model = item[1].includeType | append: ".html" %}
+        {% include {{ model }} param=item %}
+    {% endif %}
+{% endfor %}

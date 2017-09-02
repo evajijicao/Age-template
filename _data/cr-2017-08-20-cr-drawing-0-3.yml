@@ -1,0 +1,185 @@
+
+# 所有资源地址请使用远程链接
+
+
+# image
+
+图片一:
+  includeType: image
+  url: http://orfe2zdcb.bkt.clouddn.com/sharing1.jpg
+  des: 家家
+
+
+图片二:
+  includeType: image
+  url: http://orfe2zdcb.bkt.clouddn.com/sharing2.jpg
+  des: 分享
+
+
+# book
+
+孩子为什么不喜欢上学:
+  includeType: book
+  cover: /assets/childbook.jpg
+  title: 孩子为什么不喜欢上学
+  author: '[美] 威廉厄姆'
+
+# video
+
+视频一:
+  includeType: video
+  url: http://1931.vod.myqcloud.com/1931_a31c87e2966611e6ab5b0b8531ba26e9.f30.mp4
+  poster: /assets/video.png
+
+
+
+# teacher
+
+魏坤琳:
+  includeType: teacher
+  name:         "魏坤琳"
+  avatar:       /assets/dr_wei.jpg
+  des:          美国宾夕法尼亚州立大学博士，北京大学心理系教授、博士生导师，《最强大脑》科学评审，爱贝睿儿童实验室主任。
+
+
+# ref
+
+参考文献一:
+  includeType: ref
+  content:
+    1: "伯克. (2014). *伯克毕生发展心理学*. 中国人民大学出版社."
+   
+参考文献二:
+  includeType: ref
+  content:
+    1: "Weinrich, U.1968 .Languages in Contact [M] .The Hague: Mouton."
+    2: "Cummins, K.1978 .The cognitive development of children in immersion programs [J] .Canadian Modern Language Review 34:855-883."
+    3: "Hoffmann, C. 1991. An Introduction to Bilingualism [M] .New York: Longman."
+    4: "Paradis, J. and F.Genesee.1996 .Syntactic acquisition in bilingual children: Autonomous or interdependent? [J] Studies in Second Language Acquisition 18:1-25."
+    5: "Baker, Colin. 1997 .Foundations of Bilingual Education and Bilingualism [M]. Multilingual Matters, 21 (3) :274-275(2)"
+
+
+# action
+
+今日行动一:
+  includeType: action
+  content: 今日行动正文正文正文正文文正文文正文正文正文正文文正文文正文正文正文正文文正文文正文正文正文正文文正文文正文正文正文正文文正文文正文正文正文正文文正文文正文正文正文正文文正文文
+  summary: 一旦行动就胜过99%的家长
+
+今日行动二:
+  includeType: action
+  content: 今日行动正文正文正文正文文正文文正文正文正文正文文正文文正文正文正文正文文正文文正文正文正文正文文正文文正文正文正文正文文正文文正文正文正文正文文正文文正文正文正文正文文正文文
+  summary:
+
+
+
+# card
+
+知识卡一:
+  includeType: card
+  type: 知识卡里
+  num: 1
+  title: 科学育儿小知识
+  content: 知识卡片正文，只支持纯文本，所有知识卡片正文为一种全局颜色和一种字号，不支持对纯文本进行修改颜色、字号，但支持对一段文字进行<u>下划线</u> <b>加粗</b>。<br><br>知识卡片正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文。
+
+知识卡二:
+  includeType: card
+  type: 问答卡
+  num: 2
+  title: 优秀育儿问题
+  content: 知识卡片正文，只支持纯文本，所有知识卡片正文为一种全局颜色和一种字号，不支持对纯文本进行修改颜色、字号，但支持对一段文字进行<u>下划线</u> <b>加粗</b>。<br><br>知识卡片正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文。
+
+
+# motto
+
+金句一:
+  includeType: motto
+  content: 金句正文，只支持纯文本，所有知识卡片正文为一种全局颜色和一种字号，不支持对纯文本进行修改颜色、字号，但支持对一段文字进行<u>下划线</u> <b>加粗</b>。<br><br>
+           金句正文正文正文正文文正文文。
+  from: 魏坤琳
+
+金句二:
+  includeType: motto
+  content: 金句正文，只支持纯文本，所有知识卡片正文为一种全局颜色和一种字号，不支持对纯文本进行修改颜色、字号，但支持对一段文字进行<u>下划线</u> <b>加粗</b>。<br><br>
+           金句正文正文正文正文文正文文。
+  from:
+
+
+
+# prize
+
+金牌家长一:
+  includeType: prize
+  stage: 一
+  title: 金牌家长
+  name: A.杨立琴
+  parentsShare: 下雨天宅在家里，孩子说想去动物园怎么办呢？用玩偶跟孩子做了一个“室内动物园”，宝宝拉着妈妈，有板有眼的介绍企鹅游泳、绵羊吃草，玩的不亦乐乎。
+  from: 叨叨魏
+  expertTell: 如果你跟孩子宅在家里，又不知道跟孩子玩什么，推荐你开动脑筋，玩这种假装游戏，我给杨立琴第三期金牌家长认证。
+
+金牌家长二:
+  includeType: prize
+  stage: 二
+  title: 金牌家长
+  name: A.叨叨魏
+  parentsShare: 下雨天宅在家里，孩子说想去动物园怎么办呢？用玩偶跟孩子做了一个“室内动物园”，宝宝拉着妈妈，有板有眼的介绍企鹅游泳、绵羊吃草，玩的不亦乐乎？用玩偶跟孩子做了一个“室内动物园”，宝宝拉着妈妈，有板有眼的介绍企鹅游泳、绵去动物园怎么办呢？用玩偶跟孩子做了一个“室内动物园”，宝宝拉着妈妈，有板有眼的介绍企鹅游泳、绵羊吃草，玩的不亦乐乎？用玩偶跟孩子做了一个“室内动物园”，宝宝拉着妈妈，有板有眼的介绍企鹅游泳、绵羊吃草，玩的不亦乐乎。
+  from: 杨立琴
+  expertTell: 如果你跟孩子宅在家里，又不知道跟孩子玩什么，推荐你开在家里，又不知道跟孩子玩什么，推荐你开动脑筋，玩这种假装游戏，我给杨立琴第三期金牌家动脑筋，玩这种假装游戏，我给杨立琴第三期金牌家长认证跟孩子宅在家里，又不知道跟孩子玩什么，推荐你开在家里，又不知道跟孩子玩什么，推荐你开动脑筋，玩这种假装游戏，我给杨立琴第三期金牌家动脑筋，玩这种假装游戏，我给杨立琴第三期金牌家长认证。
+
+
+# list
+
+清单一:
+  includeType: list
+  order: 1
+  title: Lamaze Classic Discovery Book 儿童3D启蒙趣味布书
+
+清单二:
+  includeType: list
+  order: 2
+  title: Lamaze Classic Discovery Book 儿童3D启蒙趣味布书
+
+
+
+# ageDiverse
+
+# 由于 .yml 文件数据格式限制，分龄信息内容只支持图片，可使用 <br><br/> 换行，其他 md 格式暂不支持
+
+分龄信息一:
+  includeType: age
+  diverse:
+    1岁左右:
+      title: ""
+      content: "宝宝会在纸上用颜料留下点点。"
+    1.5岁左右:
+      title: ""
+      content: "当宝宝能够做以手肘为轴心左右往返运动时，他的绘画印迹也多以往返的涂鸦为主，看起来好像是一团解不开的乱麻。"
+    2岁+:
+      title: ""
+      content: "随着孩子手眼协调能力的发展，他开始能够画出单独的线条和封闭的圆圈。"
+    3岁左右:
+      title: ""
+      content: "宝宝开始用绘画讲故事。"
+
+分龄信息二:
+  includeType: age
+  diverse:
+    2-3岁:
+      title: "帮助孩子分清「你的东西，我的东西」"
+      content: "无论是散步、游戏、探索后花园还是在公园的体育器材上活动，父母和宝宝都会度过一个愉快而健康的时光。
+      比如，你们可以像企鹅一样行走，青蛙一样跳跃；可以面对面坐着，牵着手玩划船游戏，一边唱着「摇呀摇，摇到外婆桥」；可以弯腰手掌触地，然后手掌像毛毛虫一样向前移动；或者坐在操场上让宝宝跨过你的腿，或者用身体造座桥，让宝宝爬过去；还可以在一起唱歌跳舞......
+      总之，想象力是无尽的。发挥你的才智，跟随宝宝的步伐，你们就能远离屏幕，度过健康的亲子时光。"
+    4-5岁:
+      title: "引导孩子学会交换或者轮流"
+      content: "这个年龄的孩子，既可以和家人一起活动，也可以和一群同伴玩耍，进行简化过的球类运动，或者锻炼平衡能力的运动。
+      即使由于天气原因被困在在室内，也阻挡不了你和宝宝运动的步伐：
+      寻宝游戏。在屋里藏宝，可以给孩子提供宝藏位置的线索。
+      障碍设置。用凳子、盒子或者孩子的玩具设置一个个障碍，让孩子跳过、钻过或者绕过。
+      球类运动。用软的泡沫球来模拟室内的篮球、足球或者简单的接球活动。甚至你可以用气球来模拟排球活动呢。"
+    6+岁:
+      title: ""
+      content: "这个年龄段，当提到运动，父母很容易想到团体活动。虽然让孩子加入垒球队的确利于健身，不过每周一两次的运动是不能满足孩子的运动需要的。同样，仅仅依靠学校的体育课也是不够的。父母得想法子让孩子在家动起来。
+      在家中，父母可以把体育运动作为日常管理的一部分，从家务活到日常散步，让孩子和家人每天都活跃着。
+      给孩子自由活动的时间，孩子们对自己主导的活动会更感兴趣，比如捉迷藏、在家附近骑车溜达。
+      为孩子提供一个方便运动的环境，你不一定要为孩子提供昂贵的运动器械，球、呼啦圈和跳绳就能让他活动上好一阵子了。
+      更重要的是，你要和孩子一起动起来。作为孩子的榜样，你当然得远离电脑和手机。可以选择一项全家人都可以参与的活动，比如远足、滑冰甚至爬山。"

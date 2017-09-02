@@ -1,0 +1,33 @@
+.page-list{
+   display: -moz-box; 
+   display: -webkit-box; 
+   display: box;
+   margin: .64rem 0 .24rem;
+}
+
+.page-list-order{
+	background: #08aca2;
+	width: .84rem;
+	height: .84rem;
+	line-height: .84rem;
+	border-radius: 100%;
+	text-align: center;
+	color: #fff;
+	font-size: .56rem;
+	transform: scale(0.5);
+	transform-origin: 0 0;
+	font-weight: bold;
+	margin-top: .09rem;
+
+}
+.page-list-title{
+  -moz-box-flex: 1; 
+  -webkit-box-flex: 1; 
+  box-flex: 1;
+	margin-left: .22rem;
+	font-size:.34rem;
+	color:#22262b;
+	letter-spacing:.0072rem;
+	line-height:.52rem;
+	margin-bottom: 0;
+}

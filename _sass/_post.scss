@@ -1,0 +1,139 @@
+
+.post{
+  margin: .2rem .4rem 0;
+  overflow-x: hidden;
+}
+
+.post-title{
+  font-size: .4rem;
+  color:#3e3e3e;
+  margin-bottom: .2rem;
+}
+
+.post-content{
+  font-size: .32rem;
+  color:#22262b;
+  line-height: .56rem;
+  text-align:left;
+}
+
+.post h1,
+.post h2,
+.post h3,
+.post h4,
+.post h5,
+.post h6{
+  color:#00ada2;
+  text-align:left;
+  font-weight: bold;
+}
+
+.post h1{
+  font-size: .44rem;
+  text-align:center;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1.2rem;
+  margin-top: 1rem;
+}
+
+.post h1:before{
+  flex:1;
+  padding-left: 1rem;
+  background: url("../assets/h1-left-icon.png") no-repeat right center;
+  background-size: .98rem .14rem;
+  content: '';
+  margin-right: .15rem;
+}
+
+.post h1:after{
+  flex:1;
+  padding-right: 1rem;
+  background: url("../assets/h1-right-icon.png") no-repeat left center;
+  background-size: .98rem .14rem;
+  content: '';
+  margin-left: .15rem;
+}
+
+.post h2{
+  font-size: .4rem;
+  margin-bottom: 1rem;
+  margin-top: .8rem;
+}
+
+.post h3{
+  font-size: .36rem;
+  margin-bottom: .8rem;
+  margin-top: .6rem;
+}
+
+.post h4{
+  font-size: .32rem;
+  margin-bottom: .7rem;
+  margin-top: .6rem;
+
+}
+
+.post h5{
+  font-size: .3rem;
+  margin-bottom: .7rem;
+  margin-top: .6rem;
+
+}
+
+.post b{
+  font-weight: bold;
+}
+
+.post blockquote{
+  font-size: .3rem;
+  color: #979797;
+  border-left: .12rem solid #ffe656;
+  padding-left: .4rem;
+  margin: .6rem 0 .6rem .2rem;
+  align-items: center;
+}
+
+.post a{
+  font-size: .3rem;
+  color: #00ada2;
+  text-decoration: underline;
+}
+
+.post hr{
+  border-width: 0;
+  border-top: .04rem dashed #d8d8d8;
+  margin: .4rem 0;
+}
+
+.post ul,
+.post ol{
+  color: #646464;
+  padding: .3rem;
+}
+
+.post div.post-ul-style,
+.post div.post-ol-style{
+  font-size: .3rem;
+  font-weight: bold;
+  color: #303337;
+  text-align: center;
+}
+
+.post div.post-ul-style{
+  padding:0 .2rem;
+}
+
+.post div.post-ol-style{
+  min-width: .6rem;
+}
+
+.post li{
+  display: flex;
+  align-items: start;
+}
+
+img{
+  width: 100%;
+}
+

@@ -1,0 +1,58 @@
+---
+layout: default
+---
+<div class="post">
+
+  <article id="ibrainAgePost" class="post-content">
+    {{ content }}
+  </article>
+
+</div>
+
+<script>
+    (function(){
+        var post = $('#ibrainAgePost');
+
+        function parseLi(list) {
+
+            var _list = $(list);
+
+            if (!_list) return null;
+            var aLis = _list.children('li');
+            if(_list.prop('tagName') === 'UL'){
+                for(var i = 0; i < aLis.length; i++) {
+                    $(aLis[i]).prepend('<div class="post-ul-style">•</div>');
+                    getList($(aLis[i]));
+                }
+            }else{
+                for(var j = 0; j< aLis.length; j++) {
+                    var pre = '<div class="post-ol-style">' + (j + 1) + '</div>';
+                    $(aLis[j]).prepend(pre);
+                    getList($(aLis[j]));
+                }
+            }
+        }
+
+
+        function getList(root) {
+          var aUls = root.children('ul');
+          var aOls = root.children('ol');
+
+          if(aUls.length > 0){
+              for(var i =0; i< aUls.length; i++){
+                  parseLi(aUls[i]);
+              }
+
+          }
+
+          if(aOls.length > 0){
+              for(var j =0; j < aOls.length; j++){
+                  parseLi(aOls[j]);
+              }
+          }
+        }
+
+        getList(post);
+
+    })();
+</script>

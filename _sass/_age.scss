@@ -1,0 +1,36 @@
+.page-age {
+    margin: .8rem 0 .7rem;
+}
+.page-age-item-age{
+    display: -moz-box; 
+    display: -webkit-box; 
+    display: box;
+    height: .44rem;
+    line-height:.44rem;
+    margin: 0 0 .35rem .2rem;
+}
+.page-age-item-age-img{
+    width: .28rem;
+    height: .28rem;
+    margin-top: .07rem;
+    background:url(../assets/age-star.png) no-repeat;
+    background-size:.28rem .28rem;
+}
+.page-age-item-age-age{
+    font-size:.4rem;
+    color:#009d94;
+    margin:0 0 0 .28rem;
+
+}
+.page-age-item-title{
+    font-size:.36rem;
+    font-weight: bold;
+    color:#3f3f3f;
+    margin: .5rem .28rem 0 .76rem;
+}
+.page-age-item-content{
+    font-size:.32rem;
+    color:#505252;
+    line-height:.56rem;
+    margin: .3rem .28rem .74rem .76rem;
+}

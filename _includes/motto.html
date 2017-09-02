@@ -1,0 +1,14 @@
+
+
+<div class="page-motto">
+	<p class="page-motto-title">金句卡</p>
+    <p class="page-motto-content">{{ include.param[1].content }}</p>
+    {% if include.param[1].from %}
+	    <div class="pag-motto-from">
+			<span class="pag-motto-from-line"></span>{{ include.param[1].from }}
+		</div>
+	{% endif %}
+    {% if include.param[1].from==null %}
+        <div class="pag-motto-from-null"></div>
+    {% endif %}
+</div>

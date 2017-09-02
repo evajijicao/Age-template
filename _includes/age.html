@@ -1,0 +1,22 @@
+
+
+<div class="page-age">
+    {% for item in include.param[1].diverse %}
+
+        <div class="page-age-item">
+            <div class="page-age-item-age">
+                <div class="page-age-item-age-img"></div>
+                <p class="page-age-item-age-age">{{ item[0] }}</p> 
+            </div>
+            <p class="page-age-item-title">{{ item[1].title }}</p>
+            <p id="{{ item[1].content }}" class="page-age-item-content">{{ item[1].content }}</p>
+        </div>
+        <script>
+            if(converter){
+                var html = converter.makeHtml("{{ item[1].content }}");
+                document.getElementById("{{item[1].content}}").innerHTML = html;
+            }
+        </script>
+
+    {% endfor %}
+</div>

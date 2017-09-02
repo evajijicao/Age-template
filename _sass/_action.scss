@@ -1,0 +1,42 @@
+.page-action {
+    border-radius: .04rem;
+    border: .04rem solid #008b82;
+    position: relative;
+    margin: .86rem 0 .90rem;
+    background: #fbffff;
+}
+.page-action-title {
+  border-left: 4rem solid #ffffff;
+  border-right: 4rem solid #ffffff;
+  border-radius: 6rem;
+  background: #08aca2;
+  position: absolute;
+  left: 20%;
+  margin-left: -89rem;
+  color: #fff;
+  text-align: center;
+  height: 50rem;
+  font-size: 30rem;
+  line-height: 50rem;
+  width: 170rem;
+  top: -25rem;
+  background-size: 100% 100%;
+  font-weight: bold; 
+  transform: scale(0.01);
+}
+.page-action-content{
+    margin:.7rem .3rem 0;
+    font-size:.32rem;
+    color:#646464;
+    line-height:.5rem;
+    text-align:left;
+}
+.page-action-summary {
+    text-align: right;
+    font-size:0.32rem;
+    color:#008b82;
+    margin:.14rem .3rem .32rem;
+}
+.page-action-summary-null{
+    height: .7rem;
+}

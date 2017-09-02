@@ -1,0 +1,18 @@
+<div class="site-header">
+
+    <a class="site-header-link" target="{% if link.external %}_blank{% else %}_top{% endif %}"
+       href="{% unless link.external %}{{ site.url }}{% endunless %}{{ link.url }}">HOME</a>
+
+</div>
+
+<style>
+    .site-header{
+        text-align: center;
+        font-size: .5rem;
+    }
+
+    .site-header-link{
+        color: #00ada2;
+
+    }
+</style>

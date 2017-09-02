@@ -1,0 +1,10 @@
+
+
+<div class="page-ref component">
+    <div class="page-ref-title">参考文献：</div>
+    {% for item in include.param[1].content %}
+
+        <div class="page-ref-item"><span>{{ item[0] }}.</span>{{ item[1] }}</div>
+
+    {% endfor %}
+</div>
